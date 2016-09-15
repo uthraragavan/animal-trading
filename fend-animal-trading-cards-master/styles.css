@@ -1,0 +1,56 @@
+/* add your CSS here */
+body{
+    font-family:Arial;
+    font-size:15px;
+    padding:10px;
+    background-color:black;
+}
+
+.outer-container,.animal-info-container,.outermost-container{
+    border:0.5px solid grey;
+    max-width:90%;
+    padding:10px;
+    margin:0 auto;
+    background-color: white;
+
+}
+
+.outer-container{
+     box-shadow: 10px 10px 5px #808088;
+     width:300px;
+}
+.outermost-container{
+    width:300px;
+}
+
+.animal-info-container{
+    padding-top:5px;
+}
+
+.animal-image{
+    max-width:100%;
+    height:auto;
+    width:300px;
+    padding:5px 5px 10px 3px;
+
+}
+
+.animal-list{
+    font-weight: bold;
+}
+
+.animal-name-header{
+    padding:5px;
+}
+
+p{
+    max-width:300px;
+}
+
+ul{
+    max-width:300px;
+}
+
+ul li{
+    list-style-type:none;
+}
